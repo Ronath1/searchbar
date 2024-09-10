@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+
+  
+}
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 20vh; 
+  
+}
+
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 15px;
+  width: 100%; 
+}
+
+.spaced-checkbox {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px; 
+}
+
+
+.search-bar button {
+  align-self: center; 
+  margin-left: 10px; 
+  background-color: #d31f1f;
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.search-bar button:hover {
+  background-color: #a71c1c; 
+}
